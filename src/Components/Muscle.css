@@ -1,0 +1,20 @@
+.muscle-head-text{
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(15, 15, 40);
+    line-height: 50px;
+    margin-top: 50px;
+}
+.option-select{
+    display: flex;
+    justify-content: center;
+}
+
+.option-select select{
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    font-family: 'poppins';
+}

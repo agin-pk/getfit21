@@ -1,0 +1,97 @@
+.Contact-outer-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 75vh;   
+    overflow-x: hidden; 
+}
+.rectangle-bg{
+    height: 200px;
+    width: 100vw;
+    background-color:rgba(97, 97, 166, 0.404);
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formclass{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0px 0px 10px 1px rgba(26, 26, 26, 0.516) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-class img{
+    height: 450px;
+    width: auto;
+}
+.inputclass{
+    margin: 10px 0px;
+}
+.inputclass input{
+    border: none;
+    background-color: rgba(97, 97, 166, 0.116);
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+.formbutton button{
+    height: 50px;
+    width: 100px;
+    background-color:rgb(97, 97, 166) ;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+}
+.contactus-text{
+    font-family: 'poppins';
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(21, 21, 53);
+    text-align: center;
+    margin-top: 50px;
+}
+.contactuspara{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(21, 21, 53);
+    text-align: center;
+}
+.sucesstext{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(144, 3, 3);
+    text-align: center;
+    display: none;
+}
+.showtext{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(144, 3, 3);
+    text-align: center;
+    display: block;
+}
+@media only screen and (max-width: 780px) {
+    .image-class{
+        display: none;
+    }
+    .rectangle-bg{
+        padding: 0px;
+    }
+}

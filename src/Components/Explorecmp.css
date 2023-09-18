@@ -1,0 +1,37 @@
+.explore-outer-div{
+    width: 100%;
+    height: auto;
+    background-color: rgb(21, 21, 53);
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.text-explore{
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(97, 97, 166);
+    text-align: center;
+}
+.explore-button button{
+    height: 50px;
+    width: auto;
+    background-color:rgb(97, 97, 166) ;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 0px 20px;
+    margin-top: 30px;
+    color: white;
+}
+.explore-button button:hover{
+    background-color:rgb(74, 74, 138) ;
+
+}
+.explore-button{
+    display: flex;
+    justify-content: center;
+}

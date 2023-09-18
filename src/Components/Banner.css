@@ -1,0 +1,105 @@
+.bannerOuterDiv{
+    background-color: rgba(0, 0, 0, 0.592);
+    padding: 100px 100px;
+    /*background-image: url('../Assets/menworkout.jpg');
+    background-size: cover;*/
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content-sec{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170px; /* 85% */
+    letter-spacing: -2px;
+}
+.workout-image img{
+    height: 400px;
+    width: auto;
+}
+.banner-para{
+    width: 600px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+    letter-spacing: 0.5px;
+    margin: 40px 15px 0px 15px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1212px) {
+    .banner-content-sec{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 150px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120px; /* 85% */
+        letter-spacing: -2px;
+    }
+    .bannerOuterDiv{
+        padding: 100px 40px 6px 40px;
+        background-size: cover;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .banner-content-sec{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 90px; /* 85% */
+        letter-spacing: -2px;
+    }
+    .banner-para{
+        width: 400px;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px; /* 181.25% */
+        letter-spacing: 0.5px;
+        margin: 40px 15px;
+    }
+    .bannerOuterDiv{
+        background-color: black;
+        padding: 100px 40px 1px 40px;
+        background-image: url('../Assets/menworkout.jpg');
+        background-size: cover;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .banner-content-sec{
+        font-size: 70px;
+        line-height: 70px; /* 85% */
+
+    }
+    .banner-para{
+        width: 300px;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 181.25% */
+        letter-spacing: 0.5px;
+        margin: 40px 15px;
+    }
+    .bannerOuterDiv{
+        background-color: black;
+        padding: 100px 10px;
+        background-image: url('../Assets/menworkout.jpg');
+        background-size: cover;
+    }
+
+  }
